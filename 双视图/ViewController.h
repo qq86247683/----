@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "AppDelegate.h"
 @interface ViewController : UIViewController
-
+{
+    UIWindow *window;
+    UIView *myView;
+    AppDelegate *app;
+}
 @end
